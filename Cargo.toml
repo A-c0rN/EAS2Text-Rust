@@ -1,19 +1,2 @@
-[package]
-name = "EAS2Text"
-description = "An extensive EAS Header to Text translation library"
-version = "0.0.1"
-authors = ["Anastasia Mayer <mayer.brigan@gmail.com>"]
-license = "ODbL-1.0"
-edition = "2011"
-homepage = "https://github.com/A-c0rN/EAS2Text-Rust"
-repository = "https://github.com/A-c0rN/EAS2Text-Rust.git"
-readme = "README.md"
-
-[dependencies]
-chrono = { version = "^0.4", default-features = true, optional = true }
-log = "0.4"
-nalgebra = "^0.27.1"
-regex = "^1.5.5"
-
-[features]
-default = ["chrono"]
+[workspace]
+members = ["crates/*"]

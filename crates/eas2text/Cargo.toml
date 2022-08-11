@@ -1,0 +1,13 @@
+[package]
+name = "eas2text"
+description = "An extensive EAS Header to Text translation library"
+version = "0.0.1"
+authors = ["Anastasia Mayer <mayer.brigan@gmail.com>"]
+license = "ODbL-1.0"
+edition = "2021"
+homepage = "https://github.com/A-c0rN/EAS2Text-Rust"
+repository = "https://github.com/A-c0rN/EAS2Text-Rust.git"
+readme = "README.md"
+
+[dependencies]
+eas2text_lib = { path = "../eas2text-lib" }
